@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Nick = () => (
+const Property = () => (
   <div>
     <Link to="/">
       <h1>Property Name</h1>
     </Link>
-    {/* <h1>Nick Celaya</h1> */}
-    <h2>Property Price</h2>
-    <h3>Property info</h3>
+    <h2>Property history</h2>
+    <h3>Property cap rate</h3>
   </div>
 );
 
-export default Nick;
+export default Property;
